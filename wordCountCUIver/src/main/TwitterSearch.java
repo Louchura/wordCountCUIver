@@ -17,7 +17,7 @@ public class TwitterSearch {
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true)
 
-
+//実際はここにトークンを記載する。
 		  .setOAuthConsumerKey("")
 		  .setOAuthConsumerKeySecret("")
 		  .setOAuthAccessToken("")
