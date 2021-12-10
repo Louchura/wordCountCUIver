@@ -16,10 +16,12 @@ public class TwitterSearch {
 	public List<String> searching(String word) {
 		ConfigurationBuilder cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true)
-		  .setOAuthConsumerKey("5FOSND2aTW828JmUI1BTptUSP")
-		  .setOAuthConsumerSecret("uWbzDwWNRxj09J3FvnV4ICzaMOynVcDpX7VNxVR5Jooyab6veS")
-		  .setOAuthAccessToken("838570515862171648-HHPdd88KpOBBYb9PCdh3BlYFs5pDGiE")
-		  .setOAuthAccessTokenSecret("xpiBv02sTYsmtcnQVEKIkJHkhGXSdaAlwIwNopps6EONp");
+
+
+		  .setOAuthConsumerKey("")
+		  .setOAuthConsumerKeySecret("")
+		  .setOAuthAccessToken("")
+		  .setOAuthAccessTokenSecret("");
 	    TwitterFactory tf = new TwitterFactory(cb.build());
 	    //# Twitterクラスのインスタンス生成
 	    Twitter twitter = tf.getInstance();
