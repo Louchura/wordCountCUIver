@@ -29,13 +29,25 @@ CSVファイルのファイルパスを入力。
  
  
 # Requirement
- カウントしたい言葉
- CSV形式であらかじめ用意しておく必要があります。
- また、TwitterAPIのトークンは各自で取得しておく必要があります。
- 注意:TwitterAPIを利用してツイート本文などを取得するには、TwitterAPIv2を申請する必要があります。
+ カウントしたい言葉を記載したCSVファイル、Twitter4J、TwitterAPIのトークン。
+ 
+Twitter4J
+
+https://twitter4j.org/ja/index.html
+
+こちらから最新安定バージョンをダウンロードした後、プロジェクトフォルダにはJARを通してください。手前味噌ですが以下eclipseでJARを通すまで。
+
+https://qiita.com/Louchura/items/fddd5c11ce0277dc5b8e
+ 
+ 
+ TwitterAPIのトークン
+ 
+ 
+ 各自で取得しておく必要があります。このアプリを使うには、TwitterAPIv2を申請する必要があります。
  こちら https://blog.twitter.com/developer/en_us/topics/tools/2021/build-whats-next-with-the-new-twitter-developer-platform のリンク先の、
-![スクリーンショット 2021-12-10 15 20 40](https://user-images.githubusercontent.com/90515637/145527051-63b3fdd1-a6e4-44a1-afa1-0858884d563e.png)
- "
+
+ "![スクリーンショット 2021-12-11 23 09 32](https://user-images.githubusercontent.com/90515637/145679600-33e6ce05-1930-44f9-b2e5-63221c611a4d.png)
+
  このくだりのapplyのリンクを踏むと申請ができます。
  
 # Author
